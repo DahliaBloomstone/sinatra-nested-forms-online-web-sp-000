@@ -1,5 +1,5 @@
 class Ship
-end
+
 
   attr_accessor :name, :type, :booty
 
