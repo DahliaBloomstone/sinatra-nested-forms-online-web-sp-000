@@ -10,7 +10,7 @@ attr_accessor :name, :type, :booty
   end
 
   def self.all
-    SHIPS
+    ships
   end
 
   def self.clear
