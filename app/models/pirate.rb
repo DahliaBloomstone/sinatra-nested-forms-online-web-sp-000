@@ -6,7 +6,7 @@ attr_accessor :name, :weight, :height
     @name = params[:name]
     @weight = params[:weight]
     @height = params[:height]
-    pirates << self
+    PIRATES << self
   end
 
   def self.all
