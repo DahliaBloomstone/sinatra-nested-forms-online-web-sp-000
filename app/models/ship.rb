@@ -6,7 +6,7 @@ attr_accessor :name, :type, :booty
     @name = params[:name]
     @type = params[:type]
     @booty = params[:booty]
-    SHIPS << self
+    ships << self
   end
 
   def self.all
