@@ -10,7 +10,7 @@ attr_accessor :name, :weight, :height
   end
 
   def self.all
-    pirates
+    PIRATES
   end
 
 end
