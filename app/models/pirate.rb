@@ -1,5 +1,5 @@
 class Pirate
-end
+
 
   attr_accessor :name, :weight, :height
 
